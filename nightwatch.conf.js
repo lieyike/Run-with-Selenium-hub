@@ -6,7 +6,7 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
   ],
   "output_folder": "./node_modules/nightwatch/reports", // reports (test outcome) output by Nightwatch
   "selenium": {
-    "start_process": true,
+    "start_process": false,
     "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
